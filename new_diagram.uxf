@@ -4,10 +4,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>400</x>
-      <y>60</y>
-      <w>320</w>
-      <h>260</h>
+      <x>60</x>
+      <y>260</y>
+      <w>280</w>
+      <h>230</h>
     </coordinates>
     <panel_attributes>*Animal*
 --
@@ -18,9 +18,7 @@
 -Animal[ ] animalfood = new Animal[10]
 -a : int
 --
-
 +getId() : UUID
-+getAnimal(id : UUID) : this.Animal
 +getName() : String
 +setName(name:String) : Void
 +addPlantFood (Plant.id : UUID) : Void
@@ -34,8 +32,8 @@
     <coordinates>
       <x>60</x>
       <y>90</y>
-      <w>290</w>
-      <h>180</h>
+      <w>280</w>
+      <h>160</h>
     </coordinates>
     <panel_attributes>*Plant*
 --
@@ -44,7 +42,6 @@
 -description : String
 --
 +getId() : UUID
-+getPlant(id : UUID) : this.plant
 +getName() : String
 +setName(name : String) : Void
 +getDescription() : String

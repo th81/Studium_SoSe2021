@@ -23,9 +23,11 @@ public class Animal {
     public UUID getId() {
 		return id;
 	}
+    
 	public void setName(String name) {
         this.name = name;
     }
+	
     public String getName() {
         return this.name;
     }
