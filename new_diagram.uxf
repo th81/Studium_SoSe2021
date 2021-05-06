@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>400</x>
+      <y>60</y>
+      <w>320</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>*Animal*
+--
+-id : UUID
+-name : String
+-Plant[ ] plantfood = new Plant[10]
+-p : int
+-Animal[ ] animalfood = new Animal[10]
+-a : int
+--
+
++getId() : UUID
++getAnimal(id : UUID) : this.Animal
++getName() : String
++setName(name:String) : Void
++addPlantFood (Plant.id : UUID) : Void
++addAnimalFood (Animal.id : UUID) : Void
++getDiet () : String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>60</x>
+      <y>90</y>
+      <w>290</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>*Plant*
+--
+-id : UUID
+-name : String
+-description : String
+--
++getId() : UUID
++getPlant(id : UUID) : this.plant
++getName() : String
++setName(name : String) : Void
++getDescription() : String
++setDescription(description : String) : Void</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
