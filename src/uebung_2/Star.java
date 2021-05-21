@@ -7,4 +7,19 @@ public class Star {
 	private double distance;
 	private double apparentMagnitude;
 	private String type;
+	
+	public Star() { }
+	public Star (String name, String id) {
+		this.name = name;
+		this.id = id;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	// other getters and setters
 }
+
