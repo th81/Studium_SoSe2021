@@ -27,5 +27,23 @@ public class Star {
 	public void setID(String id) {
 		this.id = id;
 	}
+	public double getDistance() {
+		return distance;
+	}
+	public void setDistance(double distance) {
+		this.distance = distance;
+	}
+	public double getApparentMagnitude() {
+		return apparentMagnitude;
+	}
+	public void setApparentMagnitude(double apparentMagnitude) {
+		this.apparentMagnitude = apparentMagnitude;
+	}
+	public String getType() {
+		return type;
+	}
+	public void setType(String type) {
+		this.type = type;
+	}
 }
 
