@@ -34,4 +34,20 @@ public class StarsDatabase {
 		}
 		stars = tmp;
 	}
+	
+	public Star get(int index) {
+		return stars[index];
+	}
+	public int size() {
+		return stars.length;
+	}
+	public Star fing(String id) {
+		for (Star star : stars) {
+			if (star.getId().equals(id)) {
+				return star;
+			}
+		}
+		return null;
+	}
+	
 }
