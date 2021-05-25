@@ -7,6 +7,7 @@ Hier ist unser Repository.
 - Todo 2
 
 Klonen des Repositories.
+-Dinge
 
 ```
 git clone https://github.com/th81/Studium_SoSe2021.git
