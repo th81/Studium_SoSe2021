@@ -14,6 +14,10 @@ public class Star {
 		this.id = id;
 	}
 	
+	public void setDatabase(StarsDatabase database){
+		
+	}
+	
 	public String getName() {
 		return name;
 	}

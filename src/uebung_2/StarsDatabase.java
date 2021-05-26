@@ -1,5 +1,10 @@
 package uebung_2;
 
+
+/**
+ * Represents an collectuin of Stars.
+ */
+
 public class StarsDatabase {
 	
 	private Star[] stars = new Star[0];
@@ -34,14 +39,31 @@ public class StarsDatabase {
 		}
 		stars = tmp;
 	}
+	/**
+	 * Retrieves a star from the database. Fails if the index is out of range.
+	 * @param index The index of the star to be retrieved
+	 * @return the star at the given index
+	 */
 	
 	public Star get(int index) {
 		return stars[index];
 	}
+	
+	/**
+	 * Returns the size of the database.
+	 * @return The number of entries in the database
+	 */
 	public int size() {
 		return stars.length;
 	}
-	public Star fing(String id) {
+	
+	/**
+	 * Retuns the star with the given id if it is in the database, 
+	 * null otherwise. 
+	 * @param id The id of the star to be retrieved
+	 * @return The star with the given id, or null no such star is in the database.
+	 */
+	public Star find(String id) {
 		for (Star star : stars) {
 			if (star.getId().equals(id)) {
 				return star;
