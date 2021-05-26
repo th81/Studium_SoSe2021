@@ -1,4 +1,4 @@
-package uebung_2;
+package uebung_02;
 
 public class Star {
 	private StarsDatabase database;

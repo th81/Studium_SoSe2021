@@ -1,4 +1,4 @@
-package uebung_2;
+package uebung_02;
 
 import static org.junit.Assert.*;
 import org.junit.Test;
