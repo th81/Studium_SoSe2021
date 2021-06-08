@@ -10,7 +10,7 @@ import uebung_02.Star;
 public class StarsTest {
 
 	@Test
-	void testAddGetSize() {
+	public void testAddGetSize() {
 		StarsDatabase db = new StarsDatabase();
 		assertEquals(0, db.size());
 		Star star = new Star("Sirius", "TYC 5949-2777-1");
@@ -21,7 +21,7 @@ public class StarsTest {
 		assertEquals("TYC 59489-2777-1", star.getId());
 	}
 	@Test
-	void testAddRemoveSize(){
+	public void testAddRemoveSize(){
 		StarsDatabase db = new StarsDatabase();
 		Star sirius = new Star("Sirius", "TYC 5949-2777-1");
 		db.add(sirius);
@@ -34,7 +34,7 @@ public class StarsTest {
 	}
 
 	@Test
-	void testFind() {
+	public void testFind() {
 		StarsDatabase db = new StarsDatabase();
 		db.add(new Star("Sirus", "TYC 5949-2777-1"));
 		db.add(new Star("Alpha Centauri", "TYC 9007-5849-1"));

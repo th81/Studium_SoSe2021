@@ -1,7 +1,7 @@
 import uebung_01.Animal;
 import uebung_01.Plant;
 
-public class BioTest{
+/*public class BioTest{
 
 	public static void main(String[] args) {
 		Plant grass = new Plant("Grass");
@@ -40,4 +40,4 @@ public class BioTest{
 		
 		return "a";
 	}
-}
+}*/
